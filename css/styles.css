@@ -87,16 +87,19 @@ p {
 
 /* Testimonials Section */
 #testimonials {
-  padding: 7% 15%;
   background: #ef8172;
   text-align: center;
   color: #fff;
 }
 
 .testimonials-image {
-  border-radius: 100%;
   width: 10%;
+  border-radius: 100%;
   margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
 }
 
 /* Press Section */
