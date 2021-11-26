@@ -33,7 +33,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 14%;
+  padding: 3% 14% 6%;
 }
 
 /* Navigation bar  */
@@ -64,13 +64,17 @@ p {
 
 /* Title Image */
 .title-image {
-  width: 60%;
-  transform: rotate(15deg);
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
 }
 
 /* Features Section*/
 #features {
   padding: 9% 15%;
+  background: #fff;
+  position: relative;
 }
 
 .feature-box {
@@ -126,4 +130,16 @@ p {
 
 .p22 {
   padding: 0;
+}
+
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 50%;
+    transform: rotate(0deg);
+    position: static;
+    margin-top: 20px;
+  }
 }
