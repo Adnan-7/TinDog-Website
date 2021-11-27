@@ -25,9 +25,20 @@ p {
   line-height: 1.5;
 }
 
+/* container */
 .container-fluid {
   padding: 7% 15%;
 }
+
+.colord-section {
+  background: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background: #fff;
+}
+/* sections */
 
 /* Navigation bar  */
 
@@ -51,14 +62,10 @@ p {
 }
 
 /* title */
-#title {
-  background: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
 
 #title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
 
 /* Title Image */
@@ -76,15 +83,11 @@ p {
 
 /* Features Section*/
 #features {
-  background: #fff;
   position: relative;
 }
 
 .feature-title {
   font-size: 1.5rem;
-}
-
-.feature-box {
 }
 
 .icon {
@@ -98,7 +101,6 @@ p {
 /* Testimonials Section */
 #testimonials {
   background: #ef8172;
-
   color: #fff;
 }
 
@@ -141,12 +143,6 @@ p {
 
 .p22 {
   padding: 0;
-}
-
-/* call to action */
-#cta {
-  background: #ff4c68;
-  color: #fff;
 }
 
 /* footer  section*/
